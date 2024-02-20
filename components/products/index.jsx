@@ -11,22 +11,22 @@ export default function Products(){
             valor: 'R$25,00'
         },
         {
-            id: '1',
+            id: '2',
             lanche: 'Xfrango',
             valor: 'R$25,00'
         },
         {
-            id: '1',
+            id: '3',
             lanche: 'Xsalada',
             valor: 'R$25,00'
         },
         {
-            id: '1',
+            id: '4',
             lanche: 'Xbacon',
             valor: 'R$25,00'
         },
         {
-            id: '1',
+            id: '5',
             lanche: 'Xegg',
             valor: 'R$25,00'
         }
@@ -36,17 +36,17 @@ export default function Products(){
         <View style={styles.container}>
             <View>
                 <Text style={styles.title}>Products:</Text>
-                <FlatList>
+                <FlatList
                     data = {lista}
                     numColumns = {2}
                     renderItem={({item})=> 
-                        <View>
-                            <Text>
+                        <View >
+                            <Text >
                                 Lanche: {item.lanche} Valor: {item.valor}
                             </Text>
                         </View>
                     }
-                </FlatList>
+                />
             </View>
 
 
