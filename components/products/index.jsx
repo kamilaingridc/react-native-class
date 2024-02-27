@@ -7,27 +7,27 @@ export default function Products(){
     const lista = [
         {
             id: '1',
-            lanche: 'Xtudo',
+            brinco: 'Stud',
             valor: 'R$25,00'
         },
         {
             id: '2',
-            lanche: 'Xfrango',
+            brinco: 'Stud',
             valor: 'R$25,00'
         },
         {
             id: '3',
-            lanche: 'Xsalada',
+            brinco: 'Ear Cuff',
             valor: 'R$25,00'
         },
         {
             id: '4',
-            lanche: 'Xbacon',
+            brinco: 'Ear Hook',
             valor: 'R$25,00'
         },
         {
             id: '5',
-            lanche: 'Xegg',
+            brinco: 'Brinco Cascata',
             valor: 'R$25,00'
         }
     ]
@@ -42,7 +42,7 @@ export default function Products(){
                     renderItem={({item})=> 
                         <View >
                             <Text >
-                                Lanche: {item.lanche} Valor: {item.valor}
+                                {item.brinco} - {item.valor} <br/>
                             </Text>
                         </View>
                     }
