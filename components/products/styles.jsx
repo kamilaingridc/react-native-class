@@ -9,10 +9,16 @@ const styles = StyleSheet.create({
         width: '100%'
     },
 
-    title:{
-        fontSize: 30,
-        fontWeight: 'bold',
-        color: '#D89A9E'
+    text:{
+        fontSize: 40,
+        fontWeight:'bold',
+        marginTop:30,
+    },
+
+    text2:{
+        fontSize: 25,
+        fontWeight:'bold',
+
     },
 
     box:{
@@ -29,12 +35,20 @@ const styles = StyleSheet.create({
 
     button: {
         backgroundColor: '#D89A9E',
-        width: 250,
-        marginTop: 20,
-        borderRadius: 10,
-        padding: 10,
-        alignItems: 'center',
-        justifyContent: 'center'
+        width:'30%',
+        height:50,
+        borderRadius:20,
+        alignItems:'center',
+        justifyContent:'center',
+    },
+    
+    produto:{
+        width:150,
+        height: 190,
+        backgroundColor:'white',
+        padding:10,
+        margin:20,
+        alignItems:'center',
     },
 
     textButton:{
