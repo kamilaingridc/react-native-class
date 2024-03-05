@@ -3,7 +3,7 @@ import styles from "./styles"
 
 export default function Product({navigation, route}){
 
-    const {id, produto, preco, foto } = route.params
+    const {id, nome, preco, foto} = route.params
     return(
         <View style={styles.container}>
             <Text style={styles.text}>Product</Text>

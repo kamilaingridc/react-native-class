@@ -33,7 +33,7 @@ export default function Products({navigation}){
 
     return(
         < SafeAreaView style={styles.container}>
-            <Text style={styles.text}>Produtos</Text>
+            <Text style={styles.text}>Products</Text>
             <FlatList
                 data={lista}
                 numColumns={2}
@@ -51,7 +51,7 @@ export default function Products({navigation}){
                          )}
                         
                         >
-                            <Image source={require= item.foto } style={{ width: 90, height: 90 }} />
+                        <Image source={require= item.foto } style={{ width: 90, height: 90 }} />
                         </Pressable>
                         <Text style={styles.text2}>{item.preco}</Text>
 
